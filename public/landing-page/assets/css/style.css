@@ -18,12 +18,12 @@ body {
 }
 
 a {
-  color: #4154f1;
+  color: #ab3232;
   text-decoration: none;
 }
 
 a:hover {
-  color: #717ff5;
+  color: #1986d4;
   text-decoration: none;
 }
 
@@ -49,7 +49,7 @@ section {
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
-  color: #4154f1;
+  color: #af1c1f;
   text-transform: uppercase;
 }
 
@@ -59,7 +59,7 @@ section {
   font-size: 38px;
   line-height: 42px;
   font-weight: 700;
-  color: #012970;
+  color: #70010c;
 }
 
 @media (max-width: 768px) {
@@ -74,7 +74,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #012970;
+  background: #700101;
   min-height: 40px;
   margin-top: 82px;
   color: #fff;
@@ -116,7 +116,7 @@ section {
 .breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #8894f6;
+  color: #f36969;
   content: "/";
 }
 
@@ -130,7 +130,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #4154f1;
+  background: #f14141;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -144,7 +144,7 @@ section {
 }
 
 .back-to-top:hover {
-  background: #6776f4;
+  background: #f46767;
   color: #fff;
 }
 
@@ -174,7 +174,7 @@ section {
 .header.header-scrolled {
   background: #fff;
   padding: 15px 0;
-  box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+  box-shadow: 0px 2px 20px rgba(112, 1, 1, 0.1);
 }
 
 .header .logo {
@@ -225,7 +225,7 @@ section {
   font-family: "Nunito", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: #013289;
+  color: #890101;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -237,11 +237,11 @@ section {
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #4154f1;
+  color: #f14153;
 }
 
 .navbar .getstarted {
-  background: #4154f1;
+  background: #f1414d;
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
@@ -250,7 +250,7 @@ section {
 
 .navbar .getstarted:hover {
   color: #fff;
-  background: #5969f3;
+  background: #f35959;
 }
 
 .navbar .dropdown ul {
@@ -285,7 +285,7 @@ section {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #4154f1;
+  color: #f14141;
 }
 
 .navbar .dropdown:hover > ul {
@@ -320,7 +320,7 @@ section {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #012970;
+  color: #700103;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -375,11 +375,11 @@ section {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #012970;
+  color: #700101;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #4154f1;
+  color: #f14147;
 }
 
 .navbar-mobile .getstarted {
@@ -411,7 +411,7 @@ section {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #4154f1;
+  color: #f1414d;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -432,7 +432,7 @@ section {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
-  color: #012970;
+  color: #700101;
 }
 
 .hero h2 {
@@ -448,8 +448,8 @@ section {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #4154f1;
-  box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
+  background: #f14141;
+  box-shadow: 0px 5px 30px rgba(241, 65, 65, 0.4);
 }
 
 .hero .btn-get-started span {
@@ -522,14 +522,14 @@ section {
 .about h3 {
   font-size: 14px;
   font-weight: 700;
-  color: #4154f1;
+  color: #f14164;
   text-transform: uppercase;
 }
 
 .about h2 {
   font-size: 24px;
   font-weight: 700;
-  color: #012970;
+  color: #700112;
 }
 
 .about p {
@@ -543,8 +543,8 @@ section {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #4154f1;
-  box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
+  background: #f1415e;
+  box-shadow: 0px 5px 25px rgba(241, 65, 65, 0.3);
 }
 
 .about .btn-read-more span {
@@ -583,7 +583,7 @@ section {
 
 .values .box h3 {
   font-size: 24px;
-  color: #012970;
+  color: #700113;
   font-weight: 700;
   margin-bottom: 18px;
 }
@@ -616,14 +616,14 @@ section {
   font-size: 42px;
   line-height: 0;
   margin-right: 20px;
-  color: #4154f1;
+  color: #f14144;
 }
 
 .counts .count-box span {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #0b198f;
+  color: #8f0b1d;
 }
 
 .counts .count-box p {
@@ -645,7 +645,7 @@ section {
 
 .features .feature-box h3 {
   font-size: 18px;
-  color: #012970;
+  color: #70011d;
   font-weight: 700;
   margin: 0;
 }
@@ -661,7 +661,7 @@ section {
 }
 
 .features .feature-box:hover i {
-  background: #4154f1;
+  background: #f14141;
   color: #fff;
 }
 
@@ -670,7 +670,7 @@ section {
 }
 
 .features .feture-tabs h3 {
-  color: #012970;
+  color: #700101;
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 10px;
@@ -699,22 +699,22 @@ section {
 }
 
 .features .feture-tabs .nav-link.active {
-  color: #4154f1;
-  border-bottom: 3px solid #4154f1;
+  color: #f14141;
+  border-bottom: 3px solid #f1414d;
 }
 
 .features .feture-tabs .tab-content h4 {
   font-size: 18px;
   margin: 0;
   font-weight: 700;
-  color: #012970;
+  color: #700101;
 }
 
 .features .feture-tabs .tab-content i {
   font-size: 24px;
   line-height: 0;
   margin-right: 8px;
-  color: #4154f1;
+  color: #f14147;
 }
 
 .features .feature-icons {
@@ -722,7 +722,7 @@ section {
 }
 
 .features .feature-icons h3 {
-  color: #012970;
+  color: #700105;
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 20px;
@@ -743,13 +743,13 @@ section {
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 10px 0;
-  color: #012970;
+  color: #700101;
 }
 
 .features .feature-icons .content .icon-box i {
   font-size: 44px;
   line-height: 44px;
-  color: #0245bc;
+  color: #bc021e;
   margin-right: 15px;
 }
 
