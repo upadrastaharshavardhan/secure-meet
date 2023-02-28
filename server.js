@@ -3,12 +3,8 @@ const express = require('express')
 const http = require('http')
 const moment = require('moment');
 const socketio = require('socket.io');
+const PORT = process.env.PORT || 3000;
 const hostname = '0.0.0.0';
-const port = 3000;
-const server = app.listen(port, hostname, () => {
-  console.log(`Server is up and running on http://${hostname}:${port}/`);
-});
-
 
 const app = express();
 const server = http.createServer(app);
@@ -116,4 +112,4 @@ io.on('connect', socket => {
 })
 //
 
-server.listen(PORT, () => console.log(`Server is up and running on port ${PORT}`));
+server.listen(PORT, () => console.log(`Server is up and running on port ${PORT}`)); 
