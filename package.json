@@ -17,7 +17,11 @@
     "socket.io": "^2.3.0",
     "uuid": "^8.3.0",
     "webrtc-adapter": "^7.7.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
   }
 }
+
 
 
