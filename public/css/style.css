@@ -56,6 +56,10 @@ navbar .logo {
   margin-top: 20vh;
   width: 100%;
 }
+.subtitle {
+    font-size: 12px;
+    color: #888;
+}
 .main .create-join {
   width: 85%;
   margin-right: 50px;
