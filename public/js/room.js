@@ -402,12 +402,12 @@ function handleVideoAnswer(answer, sid) {
     connections[sid].setRemoteDescription(ans);
 }
 
-//Thanks to (https://github.com/miroslavpejic85) for ScreenShare Code
+
 
 screenShareButt.addEventListener('click', () => {
     screenShareToggle();
 });
-let screenshareEnabled = false;
+let screenshareEnabled = true;// harsha modified this code
 function screenShareToggle() {
     let screenMediaPromise;
     if (!screenshareEnabled) {
